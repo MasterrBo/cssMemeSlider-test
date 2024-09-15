@@ -12,10 +12,10 @@ body {
 }
 
 .wrapper {
-	height: 422px;
+	height: 48vh;
+	width: 38vw;
 	margin: 100px auto 0;
 	position: relative;
-	width: 750px;
   margin-bottom: 200px;
 }
 
@@ -78,9 +78,6 @@ body {
 	-o-border-radius: 50%;
 	border-radius: 50%;
 }
-
-
-
 
 .wrapper label:hover, 
 #slide1:checked ~ .controls label:nth-of-type(1),
