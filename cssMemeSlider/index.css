@@ -45,20 +45,23 @@ body {
 .wrapper .controls {
 	right: 0%;
 	position: absolute;
-  margin-bottom: 200px;
 }
 
 .wrapper label {
-	cursor: pointer;
-	display: inline-block;
-	height: 8px;
-	margin: 25px 12px 0 16px;
-	position: relative;
-	width: 8px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 8px;
+  margin: 25px 12px 0 16px;
+  position: relative;
+  width: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: background ease-in-out .5s;
+  -moz-transition: background ease-in-out .5s;
+  -o-transition: background ease-in-out .5s;
+  transition: background ease-in-out .5s;
 }
 
 .wrapper label:after {
@@ -76,22 +79,8 @@ body {
 	border-radius: 50%;
 }
 
-.wrapper label {
-	cursor: pointer;
-	display: inline-block;
-	height: 8px;
-	margin: 25px 12px 0 16px;
-	position: relative;
-	width: 8px;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	-o-border-radius: 50%;
-	border-radius: 50%;
-	-webkit-transition: background ease-in-out .5s;
-	-moz-transition: background ease-in-out .5s;
-	-o-transition: background ease-in-out .5s;
-	transition: background ease-in-out .5s;
-}
+
+
 
 .wrapper label:hover, 
 #slide1:checked ~ .controls label:nth-of-type(1),
